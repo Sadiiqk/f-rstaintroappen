@@ -11,7 +11,7 @@ import SwiftUI
 struct introappenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Upgift1()
         }
     }
 }

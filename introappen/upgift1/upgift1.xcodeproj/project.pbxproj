@@ -7,63 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F885E532AD466850004682E /* introappenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F885E522AD466850004682E /* introappenApp.swift */; };
-		1F885E552AD466850004682E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F885E542AD466850004682E /* ContentView.swift */; };
-		1F885E572AD4669B0004682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F885E562AD4669B0004682E /* Assets.xcassets */; };
-		1F885E5A2AD4669B0004682E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F885E592AD4669B0004682E /* Preview Assets.xcassets */; };
-		1F885E642AD4669B0004682E /* introappenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F885E632AD4669B0004682E /* introappenTests.swift */; };
-		1F885E6E2AD4669B0004682E /* introappenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F885E6D2AD4669B0004682E /* introappenUITests.swift */; };
-		1F885E702AD4669B0004682E /* introappenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F885E6F2AD4669B0004682E /* introappenUITestsLaunchTests.swift */; };
-		1FE7DB992AF9500800A8BA5B /* upgift1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7DB982AF9500800A8BA5B /* upgift1.swift */; };
+		1FC25C7E2AFCD77300CF1BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25C7D2AFCD77300CF1BE3 /* Assets.xcassets */; };
+		1FC25C812AFCD77300CF1BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25C802AFCD77300CF1BE3 /* Preview Assets.xcassets */; };
+		1FC25C8B2AFCD77300CF1BE3 /* upgift1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25C8A2AFCD77300CF1BE3 /* upgift1Tests.swift */; };
+		1FC25C952AFCD77300CF1BE3 /* upgift1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25C942AFCD77300CF1BE3 /* upgift1UITests.swift */; };
+		1FC25C972AFCD77300CF1BE3 /* upgift1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25C962AFCD77300CF1BE3 /* upgift1UITestsLaunchTests.swift */; };
+		1FC25CA82B0A7AEB00CF1BE3 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25CA72B0A7AEB00CF1BE3 /* PersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F885E602AD4669B0004682E /* PBXContainerItemProxy */ = {
+		1FC25C872AFCD77300CF1BE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1F885E472AD466850004682E /* Project object */;
+			containerPortal = 1FC25C6E2AFCD77200CF1BE3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F885E4E2AD466850004682E;
-			remoteInfo = introappen;
+			remoteGlobalIDString = 1FC25C752AFCD77200CF1BE3;
+			remoteInfo = upgift1;
 		};
-		1F885E6A2AD4669B0004682E /* PBXContainerItemProxy */ = {
+		1FC25C912AFCD77300CF1BE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1F885E472AD466850004682E /* Project object */;
+			containerPortal = 1FC25C6E2AFCD77200CF1BE3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F885E4E2AD466850004682E;
-			remoteInfo = introappen;
+			remoteGlobalIDString = 1FC25C752AFCD77200CF1BE3;
+			remoteInfo = upgift1;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F885E4F2AD466850004682E /* introappen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = introappen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F885E522AD466850004682E /* introappenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introappenApp.swift; sourceTree = "<group>"; };
-		1F885E542AD466850004682E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1F885E562AD4669B0004682E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F885E592AD4669B0004682E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1F885E5F2AD4669B0004682E /* introappenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = introappenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F885E632AD4669B0004682E /* introappenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introappenTests.swift; sourceTree = "<group>"; };
-		1F885E692AD4669B0004682E /* introappenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = introappenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F885E6D2AD4669B0004682E /* introappenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introappenUITests.swift; sourceTree = "<group>"; };
-		1F885E6F2AD4669B0004682E /* introappenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introappenUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1FE7DB982AF9500800A8BA5B /* upgift1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upgift1.swift; sourceTree = "<group>"; };
+		1FC25C762AFCD77200CF1BE3 /* upgift1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upgift1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC25C7D2AFCD77300CF1BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC25C802AFCD77300CF1BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FC25C862AFCD77300CF1BE3 /* upgift1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upgift1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC25C8A2AFCD77300CF1BE3 /* upgift1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upgift1Tests.swift; sourceTree = "<group>"; };
+		1FC25C902AFCD77300CF1BE3 /* upgift1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upgift1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC25C942AFCD77300CF1BE3 /* upgift1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upgift1UITests.swift; sourceTree = "<group>"; };
+		1FC25C962AFCD77300CF1BE3 /* upgift1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upgift1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FC25CA72B0A7AEB00CF1BE3 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F885E4C2AD466850004682E /* Frameworks */ = {
+		1FC25C732AFCD77200CF1BE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E5C2AD4669B0004682E /* Frameworks */ = {
+		1FC25C832AFCD77300CF1BE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E662AD4669B0004682E /* Frameworks */ = {
+		1FC25C8D2AFCD77300CF1BE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,143 +69,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F885E462AD466850004682E = {
+		1FC25C6D2AFCD77200CF1BE3 = {
 			isa = PBXGroup;
 			children = (
-				1F885E512AD466850004682E /* introappen */,
-				1F885E622AD4669B0004682E /* introappenTests */,
-				1F885E6C2AD4669B0004682E /* introappenUITests */,
-				1F885E502AD466850004682E /* Products */,
+				1FC25C782AFCD77200CF1BE3 /* upgift1 */,
+				1FC25C892AFCD77300CF1BE3 /* upgift1Tests */,
+				1FC25C932AFCD77300CF1BE3 /* upgift1UITests */,
+				1FC25C772AFCD77200CF1BE3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1F885E502AD466850004682E /* Products */ = {
+		1FC25C772AFCD77200CF1BE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F885E4F2AD466850004682E /* introappen.app */,
-				1F885E5F2AD4669B0004682E /* introappenTests.xctest */,
-				1F885E692AD4669B0004682E /* introappenUITests.xctest */,
+				1FC25C762AFCD77200CF1BE3 /* upgift1.app */,
+				1FC25C862AFCD77300CF1BE3 /* upgift1Tests.xctest */,
+				1FC25C902AFCD77300CF1BE3 /* upgift1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F885E512AD466850004682E /* introappen */ = {
+		1FC25C782AFCD77200CF1BE3 /* upgift1 */ = {
 			isa = PBXGroup;
 			children = (
-				1F885E522AD466850004682E /* introappenApp.swift */,
-				1F885E542AD466850004682E /* ContentView.swift */,
-				1FE7DB982AF9500800A8BA5B /* upgift1.swift */,
-				1F885E562AD4669B0004682E /* Assets.xcassets */,
-				1F885E582AD4669B0004682E /* Preview Content */,
+				1FC25CA72B0A7AEB00CF1BE3 /* PersonView.swift */,
+				1FC25C7D2AFCD77300CF1BE3 /* Assets.xcassets */,
+				1FC25C7F2AFCD77300CF1BE3 /* Preview Content */,
 			);
-			path = introappen;
+			path = upgift1;
 			sourceTree = "<group>";
 		};
-		1F885E582AD4669B0004682E /* Preview Content */ = {
+		1FC25C7F2AFCD77300CF1BE3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1F885E592AD4669B0004682E /* Preview Assets.xcassets */,
+				1FC25C802AFCD77300CF1BE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1F885E622AD4669B0004682E /* introappenTests */ = {
+		1FC25C892AFCD77300CF1BE3 /* upgift1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1F885E632AD4669B0004682E /* introappenTests.swift */,
+				1FC25C8A2AFCD77300CF1BE3 /* upgift1Tests.swift */,
 			);
-			path = introappenTests;
+			path = upgift1Tests;
 			sourceTree = "<group>";
 		};
-		1F885E6C2AD4669B0004682E /* introappenUITests */ = {
+		1FC25C932AFCD77300CF1BE3 /* upgift1UITests */ = {
 			isa = PBXGroup;
 			children = (
-				1F885E6D2AD4669B0004682E /* introappenUITests.swift */,
-				1F885E6F2AD4669B0004682E /* introappenUITestsLaunchTests.swift */,
+				1FC25C942AFCD77300CF1BE3 /* upgift1UITests.swift */,
+				1FC25C962AFCD77300CF1BE3 /* upgift1UITestsLaunchTests.swift */,
 			);
-			path = introappenUITests;
+			path = upgift1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F885E4E2AD466850004682E /* introappen */ = {
+		1FC25C752AFCD77200CF1BE3 /* upgift1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F885E732AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappen" */;
+			buildConfigurationList = 1FC25C9A2AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1" */;
 			buildPhases = (
-				1F885E4B2AD466850004682E /* Sources */,
-				1F885E4C2AD466850004682E /* Frameworks */,
-				1F885E4D2AD466850004682E /* Resources */,
+				1FC25C722AFCD77200CF1BE3 /* Sources */,
+				1FC25C732AFCD77200CF1BE3 /* Frameworks */,
+				1FC25C742AFCD77200CF1BE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = introappen;
-			productName = introappen;
-			productReference = 1F885E4F2AD466850004682E /* introappen.app */;
+			name = upgift1;
+			productName = upgift1;
+			productReference = 1FC25C762AFCD77200CF1BE3 /* upgift1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F885E5E2AD4669B0004682E /* introappenTests */ = {
+		1FC25C852AFCD77300CF1BE3 /* upgift1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F885E762AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappenTests" */;
+			buildConfigurationList = 1FC25C9D2AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1Tests" */;
 			buildPhases = (
-				1F885E5B2AD4669B0004682E /* Sources */,
-				1F885E5C2AD4669B0004682E /* Frameworks */,
-				1F885E5D2AD4669B0004682E /* Resources */,
+				1FC25C822AFCD77300CF1BE3 /* Sources */,
+				1FC25C832AFCD77300CF1BE3 /* Frameworks */,
+				1FC25C842AFCD77300CF1BE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F885E612AD4669B0004682E /* PBXTargetDependency */,
+				1FC25C882AFCD77300CF1BE3 /* PBXTargetDependency */,
 			);
-			name = introappenTests;
-			productName = introappenTests;
-			productReference = 1F885E5F2AD4669B0004682E /* introappenTests.xctest */;
+			name = upgift1Tests;
+			productName = upgift1Tests;
+			productReference = 1FC25C862AFCD77300CF1BE3 /* upgift1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F885E682AD4669B0004682E /* introappenUITests */ = {
+		1FC25C8F2AFCD77300CF1BE3 /* upgift1UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F885E792AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappenUITests" */;
+			buildConfigurationList = 1FC25CA02AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1UITests" */;
 			buildPhases = (
-				1F885E652AD4669B0004682E /* Sources */,
-				1F885E662AD4669B0004682E /* Frameworks */,
-				1F885E672AD4669B0004682E /* Resources */,
+				1FC25C8C2AFCD77300CF1BE3 /* Sources */,
+				1FC25C8D2AFCD77300CF1BE3 /* Frameworks */,
+				1FC25C8E2AFCD77300CF1BE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F885E6B2AD4669B0004682E /* PBXTargetDependency */,
+				1FC25C922AFCD77300CF1BE3 /* PBXTargetDependency */,
 			);
-			name = introappenUITests;
-			productName = introappenUITests;
-			productReference = 1F885E692AD4669B0004682E /* introappenUITests.xctest */;
+			name = upgift1UITests;
+			productName = upgift1UITests;
+			productReference = 1FC25C902AFCD77300CF1BE3 /* upgift1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F885E472AD466850004682E /* Project object */ = {
+		1FC25C6E2AFCD77200CF1BE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1F885E4E2AD466850004682E = {
+					1FC25C752AFCD77200CF1BE3 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					1F885E5E2AD4669B0004682E = {
+					1FC25C852AFCD77300CF1BE3 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 1F885E4E2AD466850004682E;
+						TestTargetID = 1FC25C752AFCD77200CF1BE3;
 					};
-					1F885E682AD4669B0004682E = {
+					1FC25C8F2AFCD77300CF1BE3 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 1F885E4E2AD466850004682E;
+						TestTargetID = 1FC25C752AFCD77200CF1BE3;
 					};
 				};
 			};
-			buildConfigurationList = 1F885E4A2AD466850004682E /* Build configuration list for PBXProject "introappen" */;
+			buildConfigurationList = 1FC25C712AFCD77200CF1BE3 /* Build configuration list for PBXProject "upgift1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +211,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1F885E462AD466850004682E;
-			productRefGroup = 1F885E502AD466850004682E /* Products */;
+			mainGroup = 1FC25C6D2AFCD77200CF1BE3;
+			productRefGroup = 1FC25C772AFCD77200CF1BE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F885E4E2AD466850004682E /* introappen */,
-				1F885E5E2AD4669B0004682E /* introappenTests */,
-				1F885E682AD4669B0004682E /* introappenUITests */,
+				1FC25C752AFCD77200CF1BE3 /* upgift1 */,
+				1FC25C852AFCD77300CF1BE3 /* upgift1Tests */,
+				1FC25C8F2AFCD77300CF1BE3 /* upgift1UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F885E4D2AD466850004682E /* Resources */ = {
+		1FC25C742AFCD77200CF1BE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F885E5A2AD4669B0004682E /* Preview Assets.xcassets in Resources */,
-				1F885E572AD4669B0004682E /* Assets.xcassets in Resources */,
+				1FC25C812AFCD77300CF1BE3 /* Preview Assets.xcassets in Resources */,
+				1FC25C7E2AFCD77300CF1BE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E5D2AD4669B0004682E /* Resources */ = {
+		1FC25C842AFCD77300CF1BE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E672AD4669B0004682E /* Resources */ = {
+		1FC25C8E2AFCD77300CF1BE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,50 +250,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F885E4B2AD466850004682E /* Sources */ = {
+		1FC25C722AFCD77200CF1BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE7DB992AF9500800A8BA5B /* upgift1.swift in Sources */,
-				1F885E552AD466850004682E /* ContentView.swift in Sources */,
-				1F885E532AD466850004682E /* introappenApp.swift in Sources */,
+				1FC25CA82B0A7AEB00CF1BE3 /* PersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E5B2AD4669B0004682E /* Sources */ = {
+		1FC25C822AFCD77300CF1BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F885E642AD4669B0004682E /* introappenTests.swift in Sources */,
+				1FC25C8B2AFCD77300CF1BE3 /* upgift1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F885E652AD4669B0004682E /* Sources */ = {
+		1FC25C8C2AFCD77300CF1BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F885E702AD4669B0004682E /* introappenUITestsLaunchTests.swift in Sources */,
-				1F885E6E2AD4669B0004682E /* introappenUITests.swift in Sources */,
+				1FC25C952AFCD77300CF1BE3 /* upgift1UITests.swift in Sources */,
+				1FC25C972AFCD77300CF1BE3 /* upgift1UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F885E612AD4669B0004682E /* PBXTargetDependency */ = {
+		1FC25C882AFCD77300CF1BE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F885E4E2AD466850004682E /* introappen */;
-			targetProxy = 1F885E602AD4669B0004682E /* PBXContainerItemProxy */;
+			target = 1FC25C752AFCD77200CF1BE3 /* upgift1 */;
+			targetProxy = 1FC25C872AFCD77300CF1BE3 /* PBXContainerItemProxy */;
 		};
-		1F885E6B2AD4669B0004682E /* PBXTargetDependency */ = {
+		1FC25C922AFCD77300CF1BE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F885E4E2AD466850004682E /* introappen */;
-			targetProxy = 1F885E6A2AD4669B0004682E /* PBXContainerItemProxy */;
+			target = 1FC25C752AFCD77200CF1BE3 /* upgift1 */;
+			targetProxy = 1FC25C912AFCD77300CF1BE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F885E712AD4669B0004682E /* Debug */ = {
+		1FC25C982AFCD77300CF1BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		1F885E722AD4669B0004682E /* Release */ = {
+		1FC25C992AFCD77300CF1BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,14 +410,14 @@
 			};
 			name = Release;
 		};
-		1F885E742AD4669B0004682E /* Debug */ = {
+		1FC25C9B2AFCD77300CF1BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"introappen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"upgift1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,30 +425,27 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappen";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1F885E752AD4669B0004682E /* Release */ = {
+		1FC25C9C2AFCD77300CF1BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"introappen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"upgift1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -464,23 +453,20 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappen";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1F885E772AD4669B0004682E /* Debug */ = {
+		1FC25C9E2AFCD77300CF1BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,16 +476,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappenTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/introappen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/introappen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/upgift1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/upgift1";
 			};
 			name = Debug;
 		};
-		1F885E782AD4669B0004682E /* Release */ = {
+		1FC25C9F2AFCD77300CF1BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -509,16 +495,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappenTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/introappen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/introappen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/upgift1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/upgift1";
 			};
 			name = Release;
 		};
-		1F885E7A2AD4669B0004682E /* Debug */ = {
+		1FC25CA12AFCD77300CF1BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,16 +512,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappenUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = introappen;
+				TEST_TARGET_NAME = upgift1;
 			};
 			name = Debug;
 		};
-		1F885E7B2AD4669B0004682E /* Release */ = {
+		1FC25CA22AFCD77300CF1BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,55 +529,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.introappenUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.upgift1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = introappen;
+				TEST_TARGET_NAME = upgift1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F885E4A2AD466850004682E /* Build configuration list for PBXProject "introappen" */ = {
+		1FC25C712AFCD77200CF1BE3 /* Build configuration list for PBXProject "upgift1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F885E712AD4669B0004682E /* Debug */,
-				1F885E722AD4669B0004682E /* Release */,
+				1FC25C982AFCD77300CF1BE3 /* Debug */,
+				1FC25C992AFCD77300CF1BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F885E732AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappen" */ = {
+		1FC25C9A2AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F885E742AD4669B0004682E /* Debug */,
-				1F885E752AD4669B0004682E /* Release */,
+				1FC25C9B2AFCD77300CF1BE3 /* Debug */,
+				1FC25C9C2AFCD77300CF1BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F885E762AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappenTests" */ = {
+		1FC25C9D2AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F885E772AD4669B0004682E /* Debug */,
-				1F885E782AD4669B0004682E /* Release */,
+				1FC25C9E2AFCD77300CF1BE3 /* Debug */,
+				1FC25C9F2AFCD77300CF1BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F885E792AD4669B0004682E /* Build configuration list for PBXNativeTarget "introappenUITests" */ = {
+		1FC25CA02AFCD77300CF1BE3 /* Build configuration list for PBXNativeTarget "upgift1UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F885E7A2AD4669B0004682E /* Debug */,
-				1F885E7B2AD4669B0004682E /* Release */,
+				1FC25CA12AFCD77300CF1BE3 /* Debug */,
+				1FC25CA22AFCD77300CF1BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F885E472AD466850004682E /* Project object */;
+	rootObject = 1FC25C6E2AFCD77200CF1BE3 /* Project object */;
 }
