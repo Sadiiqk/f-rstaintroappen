@@ -14,6 +14,7 @@
 		1FC25CC72B0A80D700CF1BE3 /* Uppgift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25CC62B0A80D700CF1BE3 /* Uppgift2Tests.swift */; };
 		1FC25CD12B0A80D700CF1BE3 /* Uppgift2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25CD02B0A80D700CF1BE3 /* Uppgift2UITests.swift */; };
 		1FC25CD32B0A80D700CF1BE3 /* Uppgift2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25CD22B0A80D700CF1BE3 /* Uppgift2UITestsLaunchTests.swift */; };
+		1FC25CE02B0A811B00CF1BE3 /* FlyggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25CDF2B0A811A00CF1BE3 /* FlyggView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1FC25CCC2B0A80D700CF1BE3 /* Uppgift2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Uppgift2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC25CD02B0A80D700CF1BE3 /* Uppgift2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uppgift2UITests.swift; sourceTree = "<group>"; };
 		1FC25CD22B0A80D700CF1BE3 /* Uppgift2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uppgift2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FC25CDF2B0A811A00CF1BE3 /* FlyggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyggView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1FC25CB52B0A80D500CF1BE3 /* Uppgift2App.swift */,
 				1FC25CB72B0A80D500CF1BE3 /* ContentView.swift */,
+				1FC25CDF2B0A811A00CF1BE3 /* FlyggView.swift */,
 				1FC25CB92B0A80D700CF1BE3 /* Assets.xcassets */,
 				1FC25CBB2B0A80D700CF1BE3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC25CB82B0A80D500CF1BE3 /* ContentView.swift in Sources */,
+				1FC25CE02B0A811B00CF1BE3 /* FlyggView.swift in Sources */,
 				1FC25CB62B0A80D500CF1BE3 /* Uppgift2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
